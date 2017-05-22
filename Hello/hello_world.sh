@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar build/libs/hello-1.0.0.jar
+java -jar Hello/build/libs/hello-1.0.0.jar
