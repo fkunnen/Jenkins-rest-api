@@ -9,7 +9,7 @@ public class Hello {
         String joinedArgs = Arrays.stream(args).collect(Collectors.joining(" "));
 
         if (joinedArgs != null && joinedArgs.length() > 0) {
-            System.out.println("Hello ");
+            System.out.println("Hello " + joinedArgs);
         }
         else {
             System.out.println("Hello world");
