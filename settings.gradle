@@ -1,0 +1,4 @@
+include "Hello"
+include "JenkinsRest"
+rootProject.name = 'JenkinsRestApi'
+
