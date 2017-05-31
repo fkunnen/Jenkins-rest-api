@@ -1,5 +1,5 @@
 plugins {
-    id "java"
+    id 'java'
 }
 
 sourceCompatibility = 1.8
@@ -18,9 +18,9 @@ jar {
     version = '1.0.0'
     manifest {
         attributes(
-                "Implementation-Title": "Hello",
-                "Implementation-Version": 1.0,
-                "Main-Class": "org.fkunnen.hello.Hello"
+                'Implementation-Title': 'Hello',
+                'Implementation-Version': 1.0,
+                'Main-Class': 'org.fkunnen.hello.Hello'
         )
     }
 }
